@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gradle-wrapper17">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/quickstart-android-375c1ae5ec9000ee71b93cee409086e27d774bdb/firestore/gradle/wrapper/gradle-wrapper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

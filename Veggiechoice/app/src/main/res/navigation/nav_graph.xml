@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/profileFragment">
+
+    <fragment android:id="@+id/profileFragment" android:name="com.veggiechoice.orbital.fragment.ProfileFragment"
+              android:label="Profile" tools:layout="@layout/fragment_profile">
+        <action android:id="@+id/actionVerifyPhone"
+                app:destination="@id/verifyPhoneFragment" app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+                app:destination="@id/updateEmailFragment" android:id="@+id/actionUpdateEmail"
+                app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action android:id="@+id/actionUpdatePassword"
+                app:destination="@id/updatePasswordFragment" app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment android:id="@+id/verifyPhoneFragment" android:name="com.veggiechoice.orbital.fragment.VerifyPhoneFragment"
+              android:label="Update Phone Number" tools:layout="@layout/fragment_verify_phone">
+        <action android:id="@+id/actionPhoneVerified" app:destination="@id/profileFragment"
+                app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment android:id="@+id/updateEmailFragment" android:name="com.veggiechoice.orbital.fragment.UpdateEmailFragment"
+              android:label="Update Email" tools:layout="@layout/fragment_update_email">
+        <action app:destination="@id/profileFragment" android:id="@+id/actionEmailUpdated"
+                app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment android:id="@+id/updatePasswordFragment"
+              android:name="com.veggiechoice.orbital.fragment.UpdatePasswordFragment"
+              android:label="Update Password" tools:layout="@layout/fragment_update_password">
+        <action
+                app:destination="@id/profileFragment" android:id="@+id/actionPasswordUpdated"
+                app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "997682537481",
+    "firebase_url": "https://veggie-choice-239ac.firebaseio.com",
+    "project_id": "veggie-choice-239ac",
+    "storage_bucket": "veggie-choice-239ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997682537481:android:c0679511645c9d2b",
+        "android_client_info": {
+          "package_name": "com.veggiechoice.orbital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997682537481-jtpvb6qhai6n3660pl6daubkl332p8t5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.veggiechoice.orbital",
+            "certificate_hash": "2fa0d540b0b2ddf4fe673c511b6d4b89a99ffe93"
+          }
+        },
+        {
+          "client_id": "997682537481-grt04ksg0i96c1spgjs2netdec05cj2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3GGx0FqnCsJkTsz0RQ00XI_eephG4sus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997682537481-grt04ksg0i96c1spgjs2netdec05cj2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

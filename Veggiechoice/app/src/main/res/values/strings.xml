@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name" translatable="false">VeggieChoice</string>
+
+    <string name="value_any_category">All food</string>
+    <string name="value_any_city">Anywhere</string>
+    <string name="value_any_price">Any price</string>
+
+    <string name="price_1">$</string>
+    <string name="price_2">$$</string>
+    <string name="price_3">$$$</string>
+
+    <string name="label_category">Category</string>
+    <string name="label_city">City</string>
+    <string name="label_price">Price</string>
+    <string name="label_sort_by">Sort By</string>
+
+    <string name="fmt_num_ratings" translatable="false">(%d)</string>
+    <string name="all_restaurants">All Restaurants</string>
+    <string name="header_filters">Filter</string>
+    <string name="search">Search</string>
+
+    <string name="sort_by_rating">Sort by Rating</string>
+    <string name="sort_by_popularity">Sort by Popularity</string>
+    <string name="sort_by_price">Sort by Price</string>
+
+    <string name="sorted_by_rating">sorted by rating</string>
+    <string name="sorted_by_price">sorted by price</string>
+    <string name="sorted_by_popularity">sorted by popularity</string>
+
+    <string name="add_random_items">Add Random Items</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="add_restaurant">Add Restaurant</string>
+    <string name="profile">Profile</string>
+    <string name="divider_bullet">•</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="message_no_results">Oops, couldn\'t find any results\nthat matched your filter</string>
+    <string name="message_no_reviews">Be the first to leave a review!</string>
+    <string name="hint_review">How was your experience?</string>
+    <string name="submit">Submit</string>
+    <string name="filter_add_review">Add review</string>
+
+    <string name="title_sign_in_error">Sign In Error</string>
+    <string name="message_no_network">No network connection.</string>
+    <string name="message_unknown">Unknown error.</string>
+    <string name="option_retry">Retry</string>
+    <string name="option_exit">Exit</string>
+    <string name="Hint_address">Address</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="add_photo">Add Photo</string>
+
+    <!-- Types of food I could think of in 5 minutes -->
+    <!-- change this part -->
+    <string-array name="categories">
+        <item>@string/value_any_category</item>
+
+        <item>Fusion</item>
+        <item>Chinese</item>
+        <item>Western</item>
+        <item>Indian</item>
+        <item>Korean</item>
+        <item>Japanese</item>
+        <item>Dessert</item>
+    </string-array>
+
+    <!-- SG cities -->
+    <string-array name="cities">
+        <item>@string/value_any_city</item>
+
+        <item>Ang Mo Kio</item>
+        <item>Bedok</item>
+        <item>Bishan</item>
+        <item>Boon Lay</item>
+        <item>Botanic Gardens</item>
+        <item>Bugis</item>
+        <item>Bukit Batok</item>
+        <item>Bukit Gombak</item>
+        <item>Bukit Panjang</item>
+        <item>Buona Vista</item>
+        <item>Changi Airport</item>
+        <item>Chinatown</item>
+        <item>Choa Chu Kang</item>
+        <item>City Hall</item>
+        <item>Clementi</item>
+        <item>Commonwealth</item>
+        <item>Clarke Quay</item>
+        <item>Dhoby Ghaut</item>
+        <item>Dover</item>
+        <item>Eunos</item>
+        <item>Farrer Park</item>
+        <item>HarbourFront</item>
+        <item>Holland Village</item>
+        <item>Houngan</item>
+        <item>Jurong</item>
+        <item>Kallang</item>
+        <item>Kent Ridge</item>
+        <item>Kranji</item>
+        <item>Lakeside</item>
+        <item>Lavender</item>
+        <item>Little India</item>
+        <item>MacPherson</item>
+        <item>Marina Bay</item>
+        <item>Newton</item>
+        <item>one-north</item>
+        <item>Orchard</item>
+        <item>Outram Park</item>
+        <item>Pasir Ris</item>
+        <item>Paya Lebar</item>
+        <item>Promenade</item>
+        <item>Pungool</item>
+        <item>Queenstown</item>
+        <item>Raffles Place</item>
+        <item>Redhill</item>
+        <item>Simei</item>
+        <item>Sembawang</item>
+        <item>Sengkang</item>
+        <item>Serangoon</item>
+        <item>Tampines</item>
+        <item>Tai Seng</item>
+        <item>Tanjong Pagar</item>
+        <item>Toa Payoh</item>
+        <item>Woodlands</item>
+        <item>Yio Chu Kang</item>
+        <item>Yishun</item>
+
+    </string-array>
+
+    <!-- Price filters -->
+    <string-array name="prices">
+        <item>@string/value_any_price</item>
+
+        <item>@string/price_1</item>
+        <item>@string/price_2</item>
+        <item>@string/price_3</item>
+    </string-array>
+
+    <!-- Ways you can sort restaurants -->
+    <string-array name="sort_by">
+        <item>@string/sort_by_rating</item>
+        <item>@string/sort_by_popularity</item>
+        <item>@string/sort_by_price</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

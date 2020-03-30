@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/menu_profile"
+            android:title="@string/profile"/>
+    <item
+            android:id="@+id/menu_add_restaurant"
+            android:title="@string/add_restaurant"/>
+    <item
+            android:id="@+id/menu_sign_out"
+            android:title="@string/sign_out"/>
+
+</menu>
